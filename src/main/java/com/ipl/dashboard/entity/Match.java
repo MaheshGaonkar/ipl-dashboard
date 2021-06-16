@@ -1,4 +1,4 @@
-package com.ipl.dashboard.model;
+package com.ipl.dashboard.entity;
 
 import java.time.LocalDate;
 

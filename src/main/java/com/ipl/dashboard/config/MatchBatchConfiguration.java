@@ -19,8 +19,8 @@ import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.core.io.ClassPathResource;
 
+import com.ipl.dashboard.entity.Match;
 import com.ipl.dashboard.listener.JobCompletionNotificationListener;
-import com.ipl.dashboard.model.Match;
 import com.ipl.dashboard.model.MatchInput;
 import com.ipl.dashboard.processor.MatchDataProcessor;
 

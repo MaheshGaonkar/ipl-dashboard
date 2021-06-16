@@ -15,7 +15,7 @@ import org.springframework.batch.core.listener.JobExecutionListenerSupport;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
 
-import com.ipl.dashboard.model.Team;
+import com.ipl.dashboard.entity.Team;
 
 @Component
 public class JobCompletionNotificationListener extends JobExecutionListenerSupport {

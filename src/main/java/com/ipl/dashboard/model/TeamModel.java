@@ -1,9 +1,6 @@
 package com.ipl.dashboard.model;
 
-import javax.persistence.Entity;
-import javax.persistence.GeneratedValue;
-import javax.persistence.GenerationType;
-import javax.persistence.Id;
+import java.util.List;
 
 import lombok.AllArgsConstructor;
 import lombok.Builder;
@@ -12,17 +9,14 @@ import lombok.NoArgsConstructor;
 import lombok.ToString;
 
 @Data
-@Entity
 @NoArgsConstructor
 @AllArgsConstructor
 @Builder
 @ToString
-public class Team {
-	
-	@Id
-	@GeneratedValue(strategy = GenerationType.AUTO)
+public class TeamModel {
 	private long id;
 	private String teamName;
 	private long totalMatches;
 	private long totalWins;
+	private List<MatchModel> matches;
 }
